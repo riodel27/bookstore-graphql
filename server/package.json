@@ -1,0 +1,20 @@
+{
+  "name": "bookstoregraphqlserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.5.0",
+    "graphql": "^14.3.1",
+    "mongoose": "^5.5.11",
+    "apollo-datasource": "^0.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
